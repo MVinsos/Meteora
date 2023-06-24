@@ -1,0 +1,29 @@
+@import url("../style/header.css");
+@import url("../style/banner.css");
+@import url("../style/categories.css");
+@import url("../style/products.css");
+
+
+
+:root {
+    --cor-pri: #000000;
+    --cor-sec: #ffffff;
+    --cor-ter: #daff01;
+    --cor-qua: #9353ff;
+    --cor-qui: #CED4DA;
+
+    --font-pri: 'Inter', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-pri);
+    background-color: var(--cor-sec);
+}
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    font-weight: 400;
+}

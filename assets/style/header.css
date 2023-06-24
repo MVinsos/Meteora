@@ -1,0 +1,140 @@
+header {
+    background-color: var(--cor-pri);
+    height: 5.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    position: relative;
+}
+.container, .header__logo {
+    display: none;
+}
+
+.header-list__link {
+    color: var(--cor-sec);
+    font-size: 1.6rem;
+}
+
+header>div {
+    display: flex;
+    align-items: center;
+}
+header>div:first-child {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+}
+header>div>ul {
+    display: flex;
+    gap: 1.2rem;
+    white-space: nowrap;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+header>div>ul>li {
+    display: flex;
+}
+
+header>div>input {
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 0;
+    width: 60%;
+}
+
+header>div>button {
+    background-color: var(--cor-pri);
+    color: var(--cor-sec);
+    margin-left: 2rem;
+    width: 8rem;
+}
+
+header>div>button,
+header>div>input {
+    height: 4rem;
+    border: 1px solid var(--cor-sec);
+}
+
+@media screen and (max-width: 769px) {
+    header>div>ul>img {
+        width: auto;
+        height: 1.3rem;
+    }
+    header>div:nth-child(2) {
+        justify-content: flex-end;
+        width: 30%;
+    }
+    header>div>button {
+        width: 40%;
+        padding: 0 1rem;
+        margin-left: 5%;
+    }
+   .header-list__link, header>div>button, header>div>input {
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media screen and (max-width: 554px) {
+    header>div:first-child {
+        display: none;
+    }
+
+    .header__logo {
+        display: flex;
+    }
+
+    header>div:nth-child(2){
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .header__burgermenu {
+        width: 24px;
+        height: 24px;
+        background-image: url("../img/menu-icon.svg");
+        display: inline-block;
+        justify-content: flex-end;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .header__ul-menu {
+        display: none;
+    }
+
+    .header-list__item {
+        background-color: var(--cor-qui);
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+        border-bottom: 1px solid var(--cor-sec);
+    }
+
+    .list-item__promo {
+        border-bottom: 0px;
+    }
+
+    .container__button {
+        display: none;
+    }
+
+    .container__button:checked ~.header__ul-menu {
+        display: block;
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 403px) {
+    .container__button:checked ~.header__ul-menu {
+        width: 35%;
+    }
+}

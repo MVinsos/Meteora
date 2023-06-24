@@ -1,0 +1,43 @@
+.products {
+    margin: 5rem 2rem;
+}
+
+.products>h2 {
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin: 3rem 1rem;
+}
+
+.products>ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.products>ul>li>a>img {
+    vertical-align: bottom;
+}
+
+.products>ul>li>a>div {
+    border: 1px solid var(--cor-qui);
+    border-top: 0;
+}
+
+.products>ul>li>a>div>h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--cor-pri);
+    text-align: left;
+    padding: 2rem 2rem 1rem 2rem; 
+}
+
+.products>ul>li>a>div>p {
+    color: var(--cor-pri);
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    width: 33rem;
+    text-align: left;
+}

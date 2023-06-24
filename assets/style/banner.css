@@ -1,0 +1,58 @@
+main>section>div>img {
+    width: 100vw;
+}
+
+.banner__tablet,
+.banner__mobile,
+.banner__search-container {
+    display: none;
+}
+
+@media screen and (max-width: 769px) {
+    .banner__desktop {
+        display: none;
+    }
+
+    .banner__tablet {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 554px) {
+    .banner__search-container {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+        gap: 1rem;
+        height: 4rem;
+    }
+
+    .banner-search__button {
+        background-color: var(--cor-sec);
+        width: 22%;
+        font-weight: 500;
+    }
+
+    .banner-search__bar {
+        width: 60%;
+    }
+
+    .banner-search__bar,
+    .banner-search__button {
+        border: 2px solid var(--cor-pri);
+    }
+
+    .banner-search__bar::placeholder {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 403px) {
+    .banner__tablet {
+        display: none;
+    }
+
+    .banner__mobile {
+        display: inline-block;
+    }
+}
