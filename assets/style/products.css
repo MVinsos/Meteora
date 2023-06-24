@@ -17,27 +17,41 @@
     gap: 2rem;
 }
 
-.products>ul>li>a>img {
+.products>ul>li>img {
     vertical-align: bottom;
 }
 
-.products>ul>li>a>div {
+.products>ul>li>div {
     border: 1px solid var(--cor-qui);
     border-top: 0;
+    text-align: left;
+    padding: 2rem;
+    width: 35rem;
 }
 
-.products>ul>li>a>div>h3 {
+.products>ul>li>div>h3 {
     font-size: 1.6rem;
     font-weight: 700;
     color: var(--cor-pri);
-    text-align: left;
-    padding: 2rem 2rem 1rem 2rem; 
 }
 
-.products>ul>li>a>div>p {
+.products>ul>li>div>p {
     color: var(--cor-pri);
     font-size: 1.3rem;
-    padding: 1rem 2rem;
-    width: 33rem;
-    text-align: left;
+    padding: 1rem 0;
+}
+
+.products>ul>li>div>p:nth-child(3) {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.products>ul>li>div>button {
+    background-color: var(--cor-qua);
+    border: 0;
+    color: var(--cor-sec);
+    padding: .9rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
 }

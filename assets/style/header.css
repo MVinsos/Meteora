@@ -110,7 +110,7 @@ header>div>input {
     }
 
     .header-list__item {
-        background-color: var(--cor-qui);
+        background-color: var(--cor-sen);
         padding: 1rem 2rem;
         font-size: 1.6rem;
         border-bottom: 1px solid var(--cor-sec);
