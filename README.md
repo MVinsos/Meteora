@@ -3,6 +3,7 @@
 ## Descrição
 
 Este é o projeto de uma página web para a loja de moda "Meteora". A página foi criada baseado neste [figma](https://www.figma.com/file/2TLgt8UjsWUViWlmpXu5Fz/Challenge-Front-end-%7C-Loja-Meteora?node-id=2386%3A3188&mode=dev) e exibe diversas funcionalidades típicas de um site de e-commerce, incluindo um cabeçalho de navegação, banners, categorias de produtos e seções de produtos em destaque.
+O CSS tambem conta com responsividade para os mais diversos tipos e tamanhos de telas disponiveis.
 
 ## Estrutura do Projeto
 
