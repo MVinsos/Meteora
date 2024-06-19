@@ -86,4 +86,5 @@ O projeto utiliza os seguintes recursos externos:
 │   │           ├── arrow-repeat (2).png
 │   │           └── flower1 (3).png
 ```
+##
 No momento somente o HTML e o CSS estão concluidos, futuramente adicionarei JavaScript.
